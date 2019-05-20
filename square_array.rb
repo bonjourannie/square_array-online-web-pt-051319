@@ -6,3 +6,9 @@ def square_array(array)
   array.each { |element| square_array << element ** 2 }
   square_array(new_numbers)
 end
+
+  new_numbers = []
+end 	  numbers.each do |num|
+    new_numbers << (num ** 2)
+  end
+  return new_numbers
