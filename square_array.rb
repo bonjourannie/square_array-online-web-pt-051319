@@ -6,6 +6,8 @@ def square_array(numbers)
   numbers.each do |squared|
     new_numbers << (num ** 2)
 end
+return new new_numbers
+end
 
   new_numbers = []
   numbers.each do |num|
